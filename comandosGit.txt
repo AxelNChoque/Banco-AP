@@ -5,4 +5,5 @@ git branch feature/Banco-01
 git checkout feature/Banco-01
 git add .
 git commit -m "Ejercicio 1 y 2 terminados."
-git merge
+git checkout master
+git merge feature/Banco-01
